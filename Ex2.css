@@ -1,0 +1,65 @@
+body{
+ background-color: white;
+  
+}
+
+.tab {
+  overflow: hidden;
+ 
+}
+.tab button {
+  background-color:inherit;
+  float:right;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 76px 78px;
+  transition: 0.3s;
+  font-size: 19px;
+}
+.tab button:hover {
+  background-color: #ddd;
+}
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  
+}
+
+html {
+  scroll-behavior: smooth;
+}
+#section3{
+  background-image: url("E1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 35%;
+  background-position-y: 57%;
+}
+
+#section1 {
+  height: 600px;
+  background-image: url("E4.PNG");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 85%;
+  background-position-y: 57%;
+}
+
+#section2 {
+  height: 900px;
+  background-image: url("E3.PNG");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 35%;
+  background-position-y: 37%;
+} 
